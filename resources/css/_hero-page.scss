@@ -32,6 +32,14 @@
 }
 
 @include breakpoint-down(small){
+    .title-wrapper{
+        p{
+            font-size: 1.25rem !important;
+        }
+        h1{
+            font-size: 4.6875rem !important;
+        }
+    }
     .hero-img{
         img{
             width: 60%;

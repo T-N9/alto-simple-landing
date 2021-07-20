@@ -162,6 +162,12 @@ a, a:active, a:hover {
 }
 
 @media (max-width: 39.9375em) {
+  .title-wrapper p {
+    font-size: 1.25rem !important;
+  }
+  .title-wrapper h1 {
+    font-size: 4.6875rem !important;
+  }
   .hero-img img {
     width: 60%;
   }
