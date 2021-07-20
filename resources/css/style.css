@@ -60,6 +60,10 @@ a, a:active, a:hover {
   margin-bottom: 5px;
 }
 
+.header__logo svg #Alto {
+  font-family: "Adevale-Regular, Adevale";
+}
+
 .header__nav {
   margin: 0;
   height: 100%;
