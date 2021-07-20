@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="81" viewBox="0 0 85 81">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.964" y1="0.179" x2="0.078" y2="0.93" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4b6360"/>
+      <stop offset="1" stop-color="#8a8780"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(-260 -167)">
+    <path id="Path_1" data-name="Path 1" d="M342.138,271.531S381.3,269.9,402.3,264.312s23.838-15.13,23.838-15.13" transform="translate(-81.138 -23.531)" fill="url(#linear-gradient)"/>
+    <text id="Alto" transform="translate(266 226)" fill="#4b6360" font-size="54" font-family="Adevale-Regular, Adevale"><tspan x="0" y="0">Alto</tspan></text>
+  </g>
+</svg>
