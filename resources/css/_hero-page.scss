@@ -26,10 +26,7 @@
         }
     }
 }
-.aboutme-page{
-    background-color: $bgColor;
-    height: 100vh;
-}
+
 
 @include breakpoint-down(small){
     .title-wrapper{

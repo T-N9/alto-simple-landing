@@ -21,6 +21,14 @@ a, a:active , a:hover{
     text-decoration: none;
 }
 
+.text-justify{
+    text-align: justify;
+}
+
+p{
+    font-family: $font-secondary;
+}
+
 // Hide on mobile phones and tablets
 .hide-for-mobile{
     @include breakpoint-down(medium){

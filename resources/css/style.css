@@ -24,13 +24,21 @@ a, a:active, a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 63.9375em) {
+.text-justify {
+  text-align: justify;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 61.9375rem) {
   .hide-for-mobile {
     display: none !important;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 62em) {
   .hide-for-desktop {
     display: none !important;
   }
@@ -125,7 +133,7 @@ a, a:active, a:hover {
   color: #4B6360;
 }
 
-@media (max-width: 63.9375em) {
+@media (max-width: 61.9375rem) {
   header nav {
     width: 90% !important;
     -webkit-box-pack: justify !important;
@@ -165,12 +173,7 @@ a, a:active, a:hover {
   z-index: -1;
 }
 
-.aboutme-page {
-  background-color: #8A8780;
-  height: 100vh;
-}
-
-@media (max-width: 39.9375em) {
+@media (max-width: 47.9375rem) {
   .title-wrapper p {
     font-size: 1.25rem !important;
   }
@@ -180,5 +183,89 @@ a, a:active, a:hover {
   .hero-img img {
     width: 60%;
   }
+}
+
+.aboutme-page {
+  background-color: #8A8780;
+  padding: 6.25rem 3.125rem;
+  color: #E6FFFA;
+}
+
+.aboutme-page .aboutme-content {
+  margin: 50px 0;
+}
+
+.aboutme-page .aboutme-content-title {
+  font-family: "Teko", sans-serif;
+  font-size: 2.5625rem;
+  font-weight: 500;
+}
+
+.aboutme-page .aboutme-content-para {
+  width: 85%;
+  margin: auto;
+  margin-top: 2.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper {
+  width: 85%;
+  margin: auto;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-left {
+  padding: 0;
+  margin-top: 3.125rem;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-left h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-left a {
+  color: #E6FFFA;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-right {
+  padding: 0;
+  margin-top: 3.125rem;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-right a {
+  color: #E6FFFA;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-right .dev-page {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px solid #E6FFFA;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-right .dev-page:hover {
+  border-color: #4B6360;
+  color: #4B6360;
+  background-color: #E6FFFA;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-right .dev-page .icon {
+  font-size: 3rem;
+}
+
+.aboutme-page .aboutme-content .cd-wrapper .cd-right .dev-page p {
+  margin-bottom: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
 }
 /*# sourceMappingURL=style.css.map */
