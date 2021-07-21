@@ -17,6 +17,10 @@
             margin: auto;
             margin-top: 2.5rem;
             font-family: $font-secondary;
+
+            @include breakpoint-down(small){
+                width: 95%;
+            }
         }
 
         .cd-wrapper{
@@ -60,10 +64,19 @@
                     p{
                         margin-bottom: 0;
                         height: fit-content;
-                        align-self: end;
+                        align-self: flex-end;
+                    }
+                    @include breakpoint-down(small){
+                        margin: auto;
                     }
                 }
             }
+            @include breakpoint-down(small){
+                width: 95%;
+            }
         }
+    }
+    @include breakpoint-down(small){
+        padding: 6.25rem 1.125rem;
     }
 }

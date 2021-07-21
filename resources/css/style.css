@@ -208,6 +208,12 @@ p {
   font-family: "Lato", sans-serif;
 }
 
+@media (max-width: 47.9375rem) {
+  .aboutme-page .aboutme-content-para {
+    width: 95%;
+  }
+}
+
 .aboutme-page .aboutme-content .cd-wrapper {
   width: 85%;
   margin: auto;
@@ -265,7 +271,24 @@ p {
   height: -moz-fit-content;
   height: fit-content;
   -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+      align-self: flex-end;
+}
+
+@media (max-width: 47.9375rem) {
+  .aboutme-page .aboutme-content .cd-wrapper .cd-right .dev-page {
+    margin: auto;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .aboutme-page .aboutme-content .cd-wrapper {
+    width: 95%;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .aboutme-page {
+    padding: 6.25rem 1.125rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
