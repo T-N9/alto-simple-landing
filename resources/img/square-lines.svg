@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="243" height="162" viewBox="0 0 243 162">
+  <defs>
+    <image id="image" width="81" height="81" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABRBAMAAABYoVcFAAAAD1BMVEXz9PQnKCi1tra0tbV+fn7KMl1FAAAABHRSTlMABTo1xkK+KwAAAM9JREFUeF6N18ENwzAMxVCGEwj1AkXRAersP1wHiA/kUfh4d7F5Jo+uH2vSkuHabQmsicsTKhWVikpFpaJSUamoVFQqKhWVikpFpaJSUamoVFQqKhWVikpFpaJSUamoVFQqKhWVikpFpaJSUamoVFQqKhWVikpFX1T05tTn0Pdwe3PKTcw1tLwqKhWVikpFpaJSUamoVFQqKhWVikpFpaJSUamoVFQqKhWVikpFpaJSUamoVFQqKhWVikpFpaJSUamoVFQqKhWVEzrJZE3/j/51KRPoGdQNhAAAAABJRU5ErkJggg=="/>
+  </defs>
+  <g id="Group_11" data-name="Group 11" transform="translate(0 -1534)">
+    <use id="axiom-pattern" transform="translate(0 1534)" xlink:href="#image"/>
+    <use id="axiom-pattern-2" data-name="axiom-pattern" transform="translate(0 1615)" xlink:href="#image"/>
+    <use id="axiom-pattern-3" data-name="axiom-pattern" transform="translate(81 1615)" xlink:href="#image"/>
+    <use id="axiom-pattern-4" data-name="axiom-pattern" transform="translate(81 1534)" xlink:href="#image"/>
+    <use id="axiom-pattern-5" data-name="axiom-pattern" transform="translate(162 1534)" xlink:href="#image"/>
+    <use id="axiom-pattern-6" data-name="axiom-pattern" transform="translate(162 1615)" xlink:href="#image"/>
+  </g>
+</svg>

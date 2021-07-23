@@ -44,6 +44,20 @@ p {
   }
 }
 
+.open-menu > span:first-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.open-menu > span:nth-child(2) {
+  opacity: 0;
+}
+
+.open-menu > span:last-child {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
 .header {
   width: 100%;
   position: relative;
@@ -62,6 +76,10 @@ p {
   width: 26px;
   height: 2px;
   background-color: #4B6360;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-transform-origin: 3px 1px;
+          transform-origin: 3px 1px;
 }
 
 .header__menu > span:not(:last-child) {
@@ -290,5 +308,19 @@ p {
   .aboutme-page {
     padding: 6.25rem 1.125rem;
   }
+}
+
+.work-page {
+  padding: 6.25rem 0;
+  height: 100vh;
+  background-image: url(../img/square-lines.svg);
+  background-repeat: repeat;
+}
+
+.work-page .work-content-title {
+  font-family: "Teko", sans-serif;
+  font-size: 2.5625rem;
+  font-weight: 500;
+  color: #4B6360;
 }
 /*# sourceMappingURL=style.css.map */

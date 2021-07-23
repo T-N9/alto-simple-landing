@@ -1,0 +1,13 @@
+.work-page{
+    padding: 6.25rem 0;
+    height: 100vh;
+    background-image: url(../img/square-lines.svg);
+    background-repeat: repeat;
+
+    .work-content-title{
+        font-family: "Teko", sans-serif;
+        font-size: 2.5625rem;
+        font-weight: 500;
+        color: $secondaryColor;
+    }
+}

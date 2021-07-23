@@ -16,6 +16,8 @@
             width: 26px;
             height: 2px;
             background-color: $secondaryColor;
+            transition: all 300ms ease-in-out;
+            transform-origin: 3px 1px;
             &:not(:last-child){
                 margin-bottom: 5px;
             }
