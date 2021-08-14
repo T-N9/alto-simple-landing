@@ -10,4 +10,46 @@
         font-weight: 500;
         color: $secondaryColor;
     }
+
+    &__item{
+
+    }
+
+    &__card{
+        border-radius: 0.625rem;
+        overflow: hidden;
+        background-color: $bgColor;
+        transition: all 200ms ease-in-out;
+        margin-bottom: 2rem;
+
+        &:hover{
+            transform: scale(1.02);
+        }
+    }
+
+    &__img{
+        img{
+            width: 100%;
+        }
+    }
+
+    &__text{
+        color: white;
+    }
+
+    &__btn{
+        display: grid;
+        margin: auto;
+        background-color: #E6FFFA;
+        color: $secondaryColor;
+        font-family: "Teko", sans-serif;
+        letter-spacing: 0.125rem;
+        width: 85%;
+        text-align: center;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+        &:hover{
+            color: $fadeColor;
+        }
+    }
 }

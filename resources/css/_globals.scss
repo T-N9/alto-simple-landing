@@ -29,6 +29,10 @@ p{
     font-family: $font-secondary;
 }
 
+h1,h2,h3{
+    font-family: $font-primary;
+}
+
 // Hide on mobile phones and tablets
 .hide-for-mobile{
     @include breakpoint-down(medium){

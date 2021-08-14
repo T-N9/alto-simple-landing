@@ -32,7 +32,11 @@ p {
   font-family: "Lato", sans-serif;
 }
 
-@media (max-width: 61.9375rem) {
+h1, h2, h3 {
+  font-family: "Teko", sans-serif;
+}
+
+@media (max-width: 61.9375em) {
   .hide-for-mobile {
     display: none !important;
   }
@@ -151,7 +155,7 @@ p {
   color: #4B6360;
 }
 
-@media (max-width: 61.9375rem) {
+@media (max-width: 61.9375em) {
   header nav {
     width: 90% !important;
     -webkit-box-pack: justify !important;
@@ -191,7 +195,7 @@ p {
   z-index: -1;
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375em) {
   .title-wrapper p {
     font-size: 1.25rem !important;
   }
@@ -226,7 +230,7 @@ p {
   font-family: "Lato", sans-serif;
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375em) {
   .aboutme-page .aboutme-content-para {
     width: 95%;
   }
@@ -292,19 +296,19 @@ p {
       align-self: flex-end;
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375em) {
   .aboutme-page .aboutme-content .cd-wrapper .cd-right .dev-page {
     margin: auto;
   }
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375em) {
   .aboutme-page .aboutme-content .cd-wrapper {
     width: 95%;
   }
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375em) {
   .aboutme-page {
     padding: 6.25rem 1.125rem;
   }
@@ -322,5 +326,46 @@ p {
   font-size: 2.5625rem;
   font-weight: 500;
   color: #4B6360;
+}
+
+.work-page__card {
+  border-radius: 0.625rem;
+  overflow: hidden;
+  background-color: #8A8780;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.work-page__card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.work-page__img img {
+  width: 100%;
+}
+
+.work-page__text {
+  color: white;
+}
+
+.work-page__btn {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  background-color: #E6FFFA;
+  color: #4B6360;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 0.125rem;
+  width: 85%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.work-page__btn:hover {
+  color: #7D8181;
 }
 /*# sourceMappingURL=style.css.map */
