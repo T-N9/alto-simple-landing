@@ -349,6 +349,12 @@ h1, h2, h3 {
   color: #4B6360;
 }
 
+@media (max-width: 61.9375em) {
+  .work-page__text .title h2 {
+    font-size: 2.375rem !important;
+  }
+}
+
 .work-page__btn {
   display: -ms-grid;
   display: grid;
