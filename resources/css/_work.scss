@@ -1,6 +1,5 @@
 .work-page{
     padding: 6.25rem 0;
-    height: 100vh;
     background-image: url(../img/square-lines.svg);
     background-repeat: repeat;
 
@@ -18,7 +17,7 @@
     &__card{
         border-radius: 0.625rem;
         overflow: hidden;
-        background-color: $bgColor;
+        background-color: $primaryLightColor;
         transition: all 200ms ease-in-out;
         margin-bottom: 2rem;
 
@@ -34,7 +33,7 @@
     }
 
     &__text{
-        color: white;
+        color: $secondaryColor;
     }
 
     &__btn{

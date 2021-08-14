@@ -316,7 +316,6 @@ h1, h2, h3 {
 
 .work-page {
   padding: 6.25rem 0;
-  height: 100vh;
   background-image: url(../img/square-lines.svg);
   background-repeat: repeat;
 }
@@ -331,7 +330,7 @@ h1, h2, h3 {
 .work-page__card {
   border-radius: 0.625rem;
   overflow: hidden;
-  background-color: #8A8780;
+  background-color: #c3fcf2;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   margin-bottom: 2rem;
@@ -347,7 +346,7 @@ h1, h2, h3 {
 }
 
 .work-page__text {
-  color: white;
+  color: #4B6360;
 }
 
 .work-page__btn {
